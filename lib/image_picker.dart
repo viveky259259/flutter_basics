@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 
-void main(List<String> args) => ImagePickerApp();
+void main(List<String> args){
+  runApp(ImagePickerApp());
+}
 
 class ImagePickerApp extends StatelessWidget {
   @override
